@@ -5,6 +5,7 @@ public class Main {
 
         do {
             System.out.println("Task Manager");
+            System.out.println("-----------------------------------");
             System.out.println("1. Add task");
             System.out.println("2. Display tasks");
             System.out.println("3. Display tasks by due date");
@@ -12,6 +13,7 @@ public class Main {
             System.out.println("5. Edit task");
             System.out.println("6. Mark task as completed");
             System.out.println("0. Exit");
+            System.out.println("-----------------------------------");
 
             System.out.print("Choose an option: ");
             try {
